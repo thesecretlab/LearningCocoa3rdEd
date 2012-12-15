@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/459982/internal/books/9781449318499/current/sample%20code/RetainCycle/RetainCycle
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/459982/internal/books/9781449318499/current/sample%20code/RetainCycle/RetainCycle/main.m
+END
+MasterViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/!svn/ver/459982/internal/books/9781449318499/current/sample%20code/RetainCycle/RetainCycle/MasterViewController.h
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/459982/internal/books/9781449318499/current/sample%20code/RetainCycle/RetainCycle/AppDelegate.h
+END
+ExampleView.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/459982/internal/books/9781449318499/current/sample%20code/RetainCycle/RetainCycle/ExampleView.m
+END
+MasterViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/!svn/ver/459982/internal/books/9781449318499/current/sample%20code/RetainCycle/RetainCycle/MasterViewController.m
+END
+RetainCycle-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/!svn/ver/459982/internal/books/9781449318499/current/sample%20code/RetainCycle/RetainCycle/RetainCycle-Info.plist
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/459982/internal/books/9781449318499/current/sample%20code/RetainCycle/RetainCycle/AppDelegate.m
+END
+RetainCycle-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/!svn/ver/459982/internal/books/9781449318499/current/sample%20code/RetainCycle/RetainCycle/RetainCycle-Prefix.pch
+END
+DetailViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/!svn/ver/459982/internal/books/9781449318499/current/sample%20code/RetainCycle/RetainCycle/DetailViewController.h
+END
+DetailViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/!svn/ver/459982/internal/books/9781449318499/current/sample%20code/RetainCycle/RetainCycle/DetailViewController.m
+END
+ExampleView.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/459982/internal/books/9781449318499/current/sample%20code/RetainCycle/RetainCycle/ExampleView.h
+END

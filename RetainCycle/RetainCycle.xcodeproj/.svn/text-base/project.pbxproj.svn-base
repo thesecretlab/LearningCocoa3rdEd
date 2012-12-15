@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68EB8DFC14F8A86B00A42C57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68EB8DFB14F8A86B00A42C57 /* UIKit.framework */; };
+		68EB8DFE14F8A86B00A42C57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68EB8DFD14F8A86B00A42C57 /* Foundation.framework */; };
+		68EB8E0014F8A86B00A42C57 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68EB8DFF14F8A86B00A42C57 /* CoreGraphics.framework */; };
+		68EB8E0614F8A86B00A42C57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68EB8E0414F8A86B00A42C57 /* InfoPlist.strings */; };
+		68EB8E0814F8A86B00A42C57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EB8E0714F8A86B00A42C57 /* main.m */; };
+		68EB8E0C14F8A86B00A42C57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EB8E0B14F8A86B00A42C57 /* AppDelegate.m */; };
+		68EB8E0F14F8A86B00A42C57 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68EB8E0D14F8A86B00A42C57 /* MainStoryboard.storyboard */; };
+		68EB8E1214F8A86B00A42C57 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EB8E1114F8A86B00A42C57 /* MasterViewController.m */; };
+		68EB8E1514F8A86B00A42C57 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EB8E1414F8A86B00A42C57 /* DetailViewController.m */; };
+		68EB8E1D14F8A8AC00A42C57 /* ExampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EB8E1C14F8A8AC00A42C57 /* ExampleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68EB8DF714F8A86B00A42C57 /* RetainCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetainCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68EB8DFB14F8A86B00A42C57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		68EB8DFD14F8A86B00A42C57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		68EB8DFF14F8A86B00A42C57 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		68EB8E0314F8A86B00A42C57 /* RetainCycle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RetainCycle-Info.plist"; sourceTree = "<group>"; };
+		68EB8E0514F8A86B00A42C57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68EB8E0714F8A86B00A42C57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68EB8E0914F8A86B00A42C57 /* RetainCycle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RetainCycle-Prefix.pch"; sourceTree = "<group>"; };
+		68EB8E0A14F8A86B00A42C57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68EB8E0B14F8A86B00A42C57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68EB8E0E14F8A86B00A42C57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		68EB8E1014F8A86B00A42C57 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		68EB8E1114F8A86B00A42C57 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		68EB8E1314F8A86B00A42C57 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		68EB8E1414F8A86B00A42C57 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		68EB8E1B14F8A8AC00A42C57 /* ExampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleView.h; sourceTree = "<group>"; };
+		68EB8E1C14F8A8AC00A42C57 /* ExampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68EB8DF414F8A86B00A42C57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68EB8DFC14F8A86B00A42C57 /* UIKit.framework in Frameworks */,
+				68EB8DFE14F8A86B00A42C57 /* Foundation.framework in Frameworks */,
+				68EB8E0014F8A86B00A42C57 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68EB8DEC14F8A86B00A42C57 = {
+			isa = PBXGroup;
+			children = (
+				68EB8E0114F8A86B00A42C57 /* RetainCycle */,
+				68EB8DFA14F8A86B00A42C57 /* Frameworks */,
+				68EB8DF814F8A86B00A42C57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68EB8DF814F8A86B00A42C57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68EB8DF714F8A86B00A42C57 /* RetainCycle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68EB8DFA14F8A86B00A42C57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68EB8DFB14F8A86B00A42C57 /* UIKit.framework */,
+				68EB8DFD14F8A86B00A42C57 /* Foundation.framework */,
+				68EB8DFF14F8A86B00A42C57 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68EB8E0114F8A86B00A42C57 /* RetainCycle */ = {
+			isa = PBXGroup;
+			children = (
+				68EB8E0A14F8A86B00A42C57 /* AppDelegate.h */,
+				68EB8E0B14F8A86B00A42C57 /* AppDelegate.m */,
+				68EB8E0D14F8A86B00A42C57 /* MainStoryboard.storyboard */,
+				68EB8E1014F8A86B00A42C57 /* MasterViewController.h */,
+				68EB8E1114F8A86B00A42C57 /* MasterViewController.m */,
+				68EB8E1314F8A86B00A42C57 /* DetailViewController.h */,
+				68EB8E1414F8A86B00A42C57 /* DetailViewController.m */,
+				68EB8E0214F8A86B00A42C57 /* Supporting Files */,
+				68EB8E1B14F8A8AC00A42C57 /* ExampleView.h */,
+				68EB8E1C14F8A8AC00A42C57 /* ExampleView.m */,
+			);
+			path = RetainCycle;
+			sourceTree = "<group>";
+		};
+		68EB8E0214F8A86B00A42C57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68EB8E0314F8A86B00A42C57 /* RetainCycle-Info.plist */,
+				68EB8E0414F8A86B00A42C57 /* InfoPlist.strings */,
+				68EB8E0714F8A86B00A42C57 /* main.m */,
+				68EB8E0914F8A86B00A42C57 /* RetainCycle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68EB8DF614F8A86B00A42C57 /* RetainCycle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68EB8E1814F8A86B00A42C57 /* Build configuration list for PBXNativeTarget "RetainCycle" */;
+			buildPhases = (
+				68EB8DF314F8A86B00A42C57 /* Sources */,
+				68EB8DF414F8A86B00A42C57 /* Frameworks */,
+				68EB8DF514F8A86B00A42C57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RetainCycle;
+			productName = RetainCycle;
+			productReference = 68EB8DF714F8A86B00A42C57 /* RetainCycle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68EB8DEE14F8A86B00A42C57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Secret Lab";
+			};
+			buildConfigurationList = 68EB8DF114F8A86B00A42C57 /* Build configuration list for PBXProject "RetainCycle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 68EB8DEC14F8A86B00A42C57;
+			productRefGroup = 68EB8DF814F8A86B00A42C57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68EB8DF614F8A86B00A42C57 /* RetainCycle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68EB8DF514F8A86B00A42C57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68EB8E0614F8A86B00A42C57 /* InfoPlist.strings in Resources */,
+				68EB8E0F14F8A86B00A42C57 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68EB8DF314F8A86B00A42C57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68EB8E0814F8A86B00A42C57 /* main.m in Sources */,
+				68EB8E0C14F8A86B00A42C57 /* AppDelegate.m in Sources */,
+				68EB8E1214F8A86B00A42C57 /* MasterViewController.m in Sources */,
+				68EB8E1514F8A86B00A42C57 /* DetailViewController.m in Sources */,
+				68EB8E1D14F8A8AC00A42C57 /* ExampleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68EB8E0414F8A86B00A42C57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68EB8E0514F8A86B00A42C57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		68EB8E0D14F8A86B00A42C57 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68EB8E0E14F8A86B00A42C57 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68EB8E1614F8A86B00A42C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68EB8E1714F8A86B00A42C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68EB8E1914F8A86B00A42C57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RetainCycle/RetainCycle-Prefix.pch";
+				INFOPLIST_FILE = "RetainCycle/RetainCycle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		68EB8E1A14F8A86B00A42C57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RetainCycle/RetainCycle-Prefix.pch";
+				INFOPLIST_FILE = "RetainCycle/RetainCycle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68EB8DF114F8A86B00A42C57 /* Build configuration list for PBXProject "RetainCycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68EB8E1614F8A86B00A42C57 /* Debug */,
+				68EB8E1714F8A86B00A42C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68EB8E1814F8A86B00A42C57 /* Build configuration list for PBXNativeTarget "RetainCycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68EB8E1914F8A86B00A42C57 /* Debug */,
+				68EB8E1A14F8A86B00A42C57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68EB8DEE14F8A86B00A42C57 /* Project object */;
+}

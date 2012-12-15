@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/!svn/ver/495057/internal/books/9781449318499/current/sample%20code/VideoPlayer/VideoPlayer
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/!svn/ver/493647/internal/books/9781449318499/current/sample%20code/VideoPlayer/VideoPlayer/main.m
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/493647/internal/books/9781449318499/current/sample%20code/VideoPlayer/VideoPlayer/AppDelegate.h
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/495057/internal/books/9781449318499/current/sample%20code/VideoPlayer/VideoPlayer/AppDelegate.m
+END
+VideoPlayer-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/!svn/ver/493647/internal/books/9781449318499/current/sample%20code/VideoPlayer/VideoPlayer/VideoPlayer-Info.plist
+END
+VideoPlayer-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/!svn/ver/493647/internal/books/9781449318499/current/sample%20code/VideoPlayer/VideoPlayer/VideoPlayer-Prefix.pch
+END

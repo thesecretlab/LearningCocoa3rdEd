@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/564102/internal/books/9781449318499/current/sample%20code/iOSTableView/iOSTableView
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/564102/internal/books/9781449318499/current/sample%20code/iOSTableView/iOSTableView/main.m
+END
+iOSTableView-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/!svn/ver/564102/internal/books/9781449318499/current/sample%20code/iOSTableView/iOSTableView/iOSTableView-Info.plist
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/!svn/ver/564102/internal/books/9781449318499/current/sample%20code/iOSTableView/iOSTableView/AppDelegate.h
+END
+Default@2x.png
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/!svn/ver/564102/internal/books/9781449318499/current/sample%20code/iOSTableView/iOSTableView/Default@2x.png
+END
+TableViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/!svn/ver/564102/internal/books/9781449318499/current/sample%20code/iOSTableView/iOSTableView/TableViewController.m
+END
+iOSTableView-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/!svn/ver/564102/internal/books/9781449318499/current/sample%20code/iOSTableView/iOSTableView/iOSTableView-Prefix.pch
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/!svn/ver/564102/internal/books/9781449318499/current/sample%20code/iOSTableView/iOSTableView/AppDelegate.m
+END
+Default.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/564102/internal/books/9781449318499/current/sample%20code/iOSTableView/iOSTableView/Default.png
+END
+Default-568h@2x.png
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/!svn/ver/564102/internal/books/9781449318499/current/sample%20code/iOSTableView/iOSTableView/Default-568h@2x.png
+END
+TableViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/!svn/ver/564102/internal/books/9781449318499/current/sample%20code/iOSTableView/iOSTableView/TableViewController.h
+END

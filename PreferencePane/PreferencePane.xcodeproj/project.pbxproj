@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		689C0702152C107A00BBC40B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 689C0701152C107A00BBC40B /* Cocoa.framework */; };
+		689C0704152C107A00BBC40B /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 689C0703152C107A00BBC40B /* PreferencePanes.framework */; };
+		689C070E152C107A00BBC40B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 689C070C152C107A00BBC40B /* InfoPlist.strings */; };
+		689C0712152C107A00BBC40B /* PreferencePane.m in Sources */ = {isa = PBXBuildFile; fileRef = 689C0711152C107A00BBC40B /* PreferencePane.m */; };
+		689C0714152C107A00BBC40B /* PreferencePane.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 689C0713152C107A00BBC40B /* PreferencePane.tiff */; };
+		689C0717152C107A00BBC40B /* PreferencePane.xib in Resources */ = {isa = PBXBuildFile; fileRef = 689C0715152C107A00BBC40B /* PreferencePane.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		689C06FE152C107A00BBC40B /* PreferencePane.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreferencePane.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		689C0701152C107A00BBC40B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		689C0703152C107A00BBC40B /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = System/Library/Frameworks/PreferencePanes.framework; sourceTree = SDKROOT; };
+		689C0706152C107A00BBC40B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		689C0707152C107A00BBC40B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		689C0708152C107A00BBC40B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		689C070B152C107A00BBC40B /* PreferencePane-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PreferencePane-Info.plist"; sourceTree = "<group>"; };
+		689C070D152C107A00BBC40B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		689C070F152C107A00BBC40B /* PreferencePane-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PreferencePane-Prefix.pch"; sourceTree = "<group>"; };
+		689C0710152C107A00BBC40B /* PreferencePane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreferencePane.h; sourceTree = "<group>"; };
+		689C0711152C107A00BBC40B /* PreferencePane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreferencePane.m; sourceTree = "<group>"; };
+		689C0713152C107A00BBC40B /* PreferencePane.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = PreferencePane.tiff; sourceTree = "<group>"; };
+		689C0716152C107A00BBC40B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PreferencePane.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		689C06F9152C107A00BBC40B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689C0702152C107A00BBC40B /* Cocoa.framework in Frameworks */,
+				689C0704152C107A00BBC40B /* PreferencePanes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		689C06F1152C107A00BBC40B = {
+			isa = PBXGroup;
+			children = (
+				689C0709152C107A00BBC40B /* PreferencePane */,
+				689C0700152C107A00BBC40B /* Frameworks */,
+				689C06FF152C107A00BBC40B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		689C06FF152C107A00BBC40B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				689C06FE152C107A00BBC40B /* PreferencePane.prefPane */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		689C0700152C107A00BBC40B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				689C0701152C107A00BBC40B /* Cocoa.framework */,
+				689C0703152C107A00BBC40B /* PreferencePanes.framework */,
+				689C0705152C107A00BBC40B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		689C0705152C107A00BBC40B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				689C0706152C107A00BBC40B /* AppKit.framework */,
+				689C0707152C107A00BBC40B /* CoreData.framework */,
+				689C0708152C107A00BBC40B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		689C0709152C107A00BBC40B /* PreferencePane */ = {
+			isa = PBXGroup;
+			children = (
+				689C0710152C107A00BBC40B /* PreferencePane.h */,
+				689C0711152C107A00BBC40B /* PreferencePane.m */,
+				689C0713152C107A00BBC40B /* PreferencePane.tiff */,
+				689C0715152C107A00BBC40B /* PreferencePane.xib */,
+				689C070A152C107A00BBC40B /* Supporting Files */,
+			);
+			path = PreferencePane;
+			sourceTree = "<group>";
+		};
+		689C070A152C107A00BBC40B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				689C070B152C107A00BBC40B /* PreferencePane-Info.plist */,
+				689C070C152C107A00BBC40B /* InfoPlist.strings */,
+				689C070F152C107A00BBC40B /* PreferencePane-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		689C06FA152C107A00BBC40B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		689C06FD152C107A00BBC40B /* PreferencePane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 689C071A152C107A00BBC40B /* Build configuration list for PBXNativeTarget "PreferencePane" */;
+			buildPhases = (
+				689C06F8152C107A00BBC40B /* Sources */,
+				689C06F9152C107A00BBC40B /* Frameworks */,
+				689C06FA152C107A00BBC40B /* Headers */,
+				689C06FB152C107A00BBC40B /* Resources */,
+				689C06FC152C107A00BBC40B /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PreferencePane;
+			productName = PreferencePane;
+			productReference = 689C06FE152C107A00BBC40B /* PreferencePane.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		689C06F3152C107A00BBC40B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Secret Lab";
+			};
+			buildConfigurationList = 689C06F6152C107A00BBC40B /* Build configuration list for PBXProject "PreferencePane" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 689C06F1152C107A00BBC40B;
+			productRefGroup = 689C06FF152C107A00BBC40B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				689C06FD152C107A00BBC40B /* PreferencePane */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		689C06FB152C107A00BBC40B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689C070E152C107A00BBC40B /* InfoPlist.strings in Resources */,
+				689C0714152C107A00BBC40B /* PreferencePane.tiff in Resources */,
+				689C0717152C107A00BBC40B /* PreferencePane.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		689C06FC152C107A00BBC40B /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		689C06F8152C107A00BBC40B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				689C0712152C107A00BBC40B /* PreferencePane.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		689C070C152C107A00BBC40B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				689C070D152C107A00BBC40B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		689C0715152C107A00BBC40B /* PreferencePane.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				689C0716152C107A00BBC40B /* en */,
+			);
+			name = PreferencePane.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		689C0718152C107A00BBC40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		689C0719152C107A00BBC40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		689C071B152C107A00BBC40B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PreferencePane/PreferencePane-Prefix.pch";
+				INFOPLIST_FILE = "PreferencePane/PreferencePane-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Debug;
+		};
+		689C071C152C107A00BBC40B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PreferencePane/PreferencePane-Prefix.pch";
+				INFOPLIST_FILE = "PreferencePane/PreferencePane-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/PreferencePanes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		689C06F6152C107A00BBC40B /* Build configuration list for PBXProject "PreferencePane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689C0718152C107A00BBC40B /* Debug */,
+				689C0719152C107A00BBC40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		689C071A152C107A00BBC40B /* Build configuration list for PBXNativeTarget "PreferencePane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				689C071B152C107A00BBC40B /* Debug */,
+				689C071C152C107A00BBC40B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 689C06F3152C107A00BBC40B /* Project object */;
+}

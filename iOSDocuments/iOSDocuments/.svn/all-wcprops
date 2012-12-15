@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/!svn/ver/477240/internal/books/9781449318499/current/sample%20code/iOSDocuments/iOSDocuments
+END
+iOSDocuments-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/!svn/ver/460347/internal/books/9781449318499/current/sample%20code/iOSDocuments/iOSDocuments/iOSDocuments-Info.plist
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/!svn/ver/460347/internal/books/9781449318499/current/sample%20code/iOSDocuments/iOSDocuments/main.m
+END
+MasterViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/!svn/ver/477240/internal/books/9781449318499/current/sample%20code/iOSDocuments/iOSDocuments/MasterViewController.h
+END
+iOSDocuments-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/!svn/ver/460347/internal/books/9781449318499/current/sample%20code/iOSDocuments/iOSDocuments/iOSDocuments-Prefix.pch
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/!svn/ver/460347/internal/books/9781449318499/current/sample%20code/iOSDocuments/iOSDocuments/AppDelegate.h
+END
+MasterViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/!svn/ver/477240/internal/books/9781449318499/current/sample%20code/iOSDocuments/iOSDocuments/MasterViewController.m
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/!svn/ver/460347/internal/books/9781449318499/current/sample%20code/iOSDocuments/iOSDocuments/AppDelegate.m
+END
+SampleDocument.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/460347/internal/books/9781449318499/current/sample%20code/iOSDocuments/iOSDocuments/SampleDocument.h
+END
+DetailViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/!svn/ver/477240/internal/books/9781449318499/current/sample%20code/iOSDocuments/iOSDocuments/DetailViewController.h
+END
+SampleDocument.m
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/477240/internal/books/9781449318499/current/sample%20code/iOSDocuments/iOSDocuments/SampleDocument.m
+END
+DetailViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/!svn/ver/477240/internal/books/9781449318499/current/sample%20code/iOSDocuments/iOSDocuments/DetailViewController.m
+END
