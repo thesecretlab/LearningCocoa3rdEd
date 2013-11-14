@@ -7,93 +7,147 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		682A70F5156B43C6009CEB6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682A70F4156B43C6009CEB6E /* UIKit.framework */; };
-		682A70F7156B43C6009CEB6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682A70F6156B43C6009CEB6E /* Foundation.framework */; };
-		682A70F9156B43C6009CEB6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682A70F8156B43C6009CEB6E /* CoreGraphics.framework */; };
-		682A70FF156B43C6009CEB6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 682A70FD156B43C6009CEB6E /* InfoPlist.strings */; };
-		682A7101156B43C6009CEB6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 682A7100156B43C6009CEB6E /* main.m */; };
-		682A7105156B43C6009CEB6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 682A7104156B43C6009CEB6E /* AppDelegate.m */; };
-		682A7108156B43C6009CEB6E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 682A7106156B43C6009CEB6E /* MainStoryboard.storyboard */; };
-		682A710B156B43C6009CEB6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 682A710A156B43C6009CEB6E /* ViewController.m */; };
+		337D7F7F17F1C0E0007B52F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337D7F7E17F1C0E0007B52F7 /* Foundation.framework */; };
+		337D7F8117F1C0E0007B52F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337D7F8017F1C0E0007B52F7 /* CoreGraphics.framework */; };
+		337D7F8317F1C0E0007B52F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337D7F8217F1C0E0007B52F7 /* UIKit.framework */; };
+		337D7F8917F1C0E0007B52F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 337D7F8717F1C0E0007B52F7 /* InfoPlist.strings */; };
+		337D7F8B17F1C0E0007B52F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 337D7F8A17F1C0E0007B52F7 /* main.m */; };
+		337D7F8F17F1C0E0007B52F7 /* LCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 337D7F8E17F1C0E0007B52F7 /* LCAppDelegate.m */; };
+		337D7F9217F1C0E0007B52F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 337D7F9017F1C0E0007B52F7 /* Main.storyboard */; };
+		337D7F9517F1C0E0007B52F7 /* LCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 337D7F9417F1C0E0007B52F7 /* LCViewController.m */; };
+		337D7F9717F1C0E0007B52F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 337D7F9617F1C0E0007B52F7 /* Images.xcassets */; };
+		337D7F9E17F1C0E0007B52F7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337D7F9D17F1C0E0007B52F7 /* XCTest.framework */; };
+		337D7F9F17F1C0E0007B52F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337D7F7E17F1C0E0007B52F7 /* Foundation.framework */; };
+		337D7FA017F1C0E0007B52F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337D7F8217F1C0E0007B52F7 /* UIKit.framework */; };
+		337D7FA817F1C0E0007B52F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 337D7FA617F1C0E0007B52F7 /* InfoPlist.strings */; };
+		337D7FAA17F1C0E0007B52F7 /* HelloCocoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 337D7FA917F1C0E0007B52F7 /* HelloCocoaTests.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		337D7FA117F1C0E0007B52F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 337D7F7317F1C0E0007B52F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 337D7F7A17F1C0E0007B52F7;
+			remoteInfo = HelloCocoa;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		682A70F0156B43C6009CEB6E /* HelloCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		682A70F4156B43C6009CEB6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		682A70F6156B43C6009CEB6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		682A70F8156B43C6009CEB6E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		682A70FC156B43C6009CEB6E /* HelloCocoa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloCocoa-Info.plist"; sourceTree = "<group>"; };
-		682A70FE156B43C6009CEB6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		682A7100156B43C6009CEB6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		682A7102156B43C6009CEB6E /* HelloCocoa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloCocoa-Prefix.pch"; sourceTree = "<group>"; };
-		682A7103156B43C6009CEB6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		682A7104156B43C6009CEB6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		682A7107156B43C6009CEB6E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		682A7109156B43C6009CEB6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		682A710A156B43C6009CEB6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		337D7F7B17F1C0E0007B52F7 /* HelloCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		337D7F7E17F1C0E0007B52F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		337D7F8017F1C0E0007B52F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		337D7F8217F1C0E0007B52F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		337D7F8617F1C0E0007B52F7 /* HelloCocoa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloCocoa-Info.plist"; sourceTree = "<group>"; };
+		337D7F8817F1C0E0007B52F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		337D7F8A17F1C0E0007B52F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		337D7F8C17F1C0E0007B52F7 /* HelloCocoa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloCocoa-Prefix.pch"; sourceTree = "<group>"; };
+		337D7F8D17F1C0E0007B52F7 /* LCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCAppDelegate.h; sourceTree = "<group>"; };
+		337D7F8E17F1C0E0007B52F7 /* LCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCAppDelegate.m; sourceTree = "<group>"; };
+		337D7F9117F1C0E0007B52F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		337D7F9317F1C0E0007B52F7 /* LCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCViewController.h; sourceTree = "<group>"; };
+		337D7F9417F1C0E0007B52F7 /* LCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCViewController.m; sourceTree = "<group>"; };
+		337D7F9617F1C0E0007B52F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		337D7F9C17F1C0E0007B52F7 /* HelloCocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloCocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		337D7F9D17F1C0E0007B52F7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		337D7FA517F1C0E0007B52F7 /* HelloCocoaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloCocoaTests-Info.plist"; sourceTree = "<group>"; };
+		337D7FA717F1C0E0007B52F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		337D7FA917F1C0E0007B52F7 /* HelloCocoaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloCocoaTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		682A70ED156B43C6009CEB6E /* Frameworks */ = {
+		337D7F7817F1C0E0007B52F7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				682A70F5156B43C6009CEB6E /* UIKit.framework in Frameworks */,
-				682A70F7156B43C6009CEB6E /* Foundation.framework in Frameworks */,
-				682A70F9156B43C6009CEB6E /* CoreGraphics.framework in Frameworks */,
+				337D7F8117F1C0E0007B52F7 /* CoreGraphics.framework in Frameworks */,
+				337D7F8317F1C0E0007B52F7 /* UIKit.framework in Frameworks */,
+				337D7F7F17F1C0E0007B52F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		337D7F9917F1C0E0007B52F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337D7F9E17F1C0E0007B52F7 /* XCTest.framework in Frameworks */,
+				337D7FA017F1C0E0007B52F7 /* UIKit.framework in Frameworks */,
+				337D7F9F17F1C0E0007B52F7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		682A70E5156B43C6009CEB6E = {
+		337D7F7217F1C0E0007B52F7 = {
 			isa = PBXGroup;
 			children = (
-				682A70FA156B43C6009CEB6E /* HelloCocoa */,
-				682A70F3156B43C6009CEB6E /* Frameworks */,
-				682A70F1156B43C6009CEB6E /* Products */,
+				337D7F8417F1C0E0007B52F7 /* HelloCocoa */,
+				337D7FA317F1C0E0007B52F7 /* HelloCocoaTests */,
+				337D7F7D17F1C0E0007B52F7 /* Frameworks */,
+				337D7F7C17F1C0E0007B52F7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		682A70F1156B43C6009CEB6E /* Products */ = {
+		337D7F7C17F1C0E0007B52F7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				682A70F0156B43C6009CEB6E /* HelloCocoa.app */,
+				337D7F7B17F1C0E0007B52F7 /* HelloCocoa.app */,
+				337D7F9C17F1C0E0007B52F7 /* HelloCocoaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		682A70F3156B43C6009CEB6E /* Frameworks */ = {
+		337D7F7D17F1C0E0007B52F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				682A70F4156B43C6009CEB6E /* UIKit.framework */,
-				682A70F6156B43C6009CEB6E /* Foundation.framework */,
-				682A70F8156B43C6009CEB6E /* CoreGraphics.framework */,
+				337D7F7E17F1C0E0007B52F7 /* Foundation.framework */,
+				337D7F8017F1C0E0007B52F7 /* CoreGraphics.framework */,
+				337D7F8217F1C0E0007B52F7 /* UIKit.framework */,
+				337D7F9D17F1C0E0007B52F7 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		682A70FA156B43C6009CEB6E /* HelloCocoa */ = {
+		337D7F8417F1C0E0007B52F7 /* HelloCocoa */ = {
 			isa = PBXGroup;
 			children = (
-				682A7103156B43C6009CEB6E /* AppDelegate.h */,
-				682A7104156B43C6009CEB6E /* AppDelegate.m */,
-				682A7106156B43C6009CEB6E /* MainStoryboard.storyboard */,
-				682A7109156B43C6009CEB6E /* ViewController.h */,
-				682A710A156B43C6009CEB6E /* ViewController.m */,
-				682A70FB156B43C6009CEB6E /* Supporting Files */,
+				337D7F8D17F1C0E0007B52F7 /* LCAppDelegate.h */,
+				337D7F8E17F1C0E0007B52F7 /* LCAppDelegate.m */,
+				337D7F9017F1C0E0007B52F7 /* Main.storyboard */,
+				337D7F9317F1C0E0007B52F7 /* LCViewController.h */,
+				337D7F9417F1C0E0007B52F7 /* LCViewController.m */,
+				337D7F9617F1C0E0007B52F7 /* Images.xcassets */,
+				337D7F8517F1C0E0007B52F7 /* Supporting Files */,
 			);
 			path = HelloCocoa;
 			sourceTree = "<group>";
 		};
-		682A70FB156B43C6009CEB6E /* Supporting Files */ = {
+		337D7F8517F1C0E0007B52F7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				682A70FC156B43C6009CEB6E /* HelloCocoa-Info.plist */,
-				682A70FD156B43C6009CEB6E /* InfoPlist.strings */,
-				682A7100156B43C6009CEB6E /* main.m */,
-				682A7102156B43C6009CEB6E /* HelloCocoa-Prefix.pch */,
+				337D7F8617F1C0E0007B52F7 /* HelloCocoa-Info.plist */,
+				337D7F8717F1C0E0007B52F7 /* InfoPlist.strings */,
+				337D7F8A17F1C0E0007B52F7 /* main.m */,
+				337D7F8C17F1C0E0007B52F7 /* HelloCocoa-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		337D7FA317F1C0E0007B52F7 /* HelloCocoaTests */ = {
+			isa = PBXGroup;
+			children = (
+				337D7FA917F1C0E0007B52F7 /* HelloCocoaTests.m */,
+				337D7FA417F1C0E0007B52F7 /* Supporting Files */,
+			);
+			path = HelloCocoaTests;
+			sourceTree = "<group>";
+		};
+		337D7FA417F1C0E0007B52F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				337D7FA517F1C0E0007B52F7 /* HelloCocoaTests-Info.plist */,
+				337D7FA617F1C0E0007B52F7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -101,13 +155,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		682A70EF156B43C6009CEB6E /* HelloCocoa */ = {
+		337D7F7A17F1C0E0007B52F7 /* HelloCocoa */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 682A710E156B43C6009CEB6E /* Build configuration list for PBXNativeTarget "HelloCocoa" */;
+			buildConfigurationList = 337D7FAD17F1C0E0007B52F7 /* Build configuration list for PBXNativeTarget "HelloCocoa" */;
 			buildPhases = (
-				682A70EC156B43C6009CEB6E /* Sources */,
-				682A70ED156B43C6009CEB6E /* Frameworks */,
-				682A70EE156B43C6009CEB6E /* Resources */,
+				337D7F7717F1C0E0007B52F7 /* Sources */,
+				337D7F7817F1C0E0007B52F7 /* Frameworks */,
+				337D7F7917F1C0E0007B52F7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -115,86 +169,155 @@
 			);
 			name = HelloCocoa;
 			productName = HelloCocoa;
-			productReference = 682A70F0156B43C6009CEB6E /* HelloCocoa.app */;
+			productReference = 337D7F7B17F1C0E0007B52F7 /* HelloCocoa.app */;
 			productType = "com.apple.product-type.application";
+		};
+		337D7F9B17F1C0E0007B52F7 /* HelloCocoaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 337D7FB017F1C0E0007B52F7 /* Build configuration list for PBXNativeTarget "HelloCocoaTests" */;
+			buildPhases = (
+				337D7F9817F1C0E0007B52F7 /* Sources */,
+				337D7F9917F1C0E0007B52F7 /* Frameworks */,
+				337D7F9A17F1C0E0007B52F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				337D7FA217F1C0E0007B52F7 /* PBXTargetDependency */,
+			);
+			name = HelloCocoaTests;
+			productName = HelloCocoaTests;
+			productReference = 337D7F9C17F1C0E0007B52F7 /* HelloCocoaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		682A70E7156B43C6009CEB6E /* Project object */ = {
+		337D7F7317F1C0E0007B52F7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
-				ORGANIZATIONNAME = "Secret Lab";
+				CLASSPREFIX = LC;
+				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					337D7F9B17F1C0E0007B52F7 = {
+						TestTargetID = 337D7F7A17F1C0E0007B52F7;
+					};
+				};
 			};
-			buildConfigurationList = 682A70EA156B43C6009CEB6E /* Build configuration list for PBXProject "HelloCocoa" */;
+			buildConfigurationList = 337D7F7617F1C0E0007B52F7 /* Build configuration list for PBXProject "HelloCocoa" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 682A70E5156B43C6009CEB6E;
-			productRefGroup = 682A70F1156B43C6009CEB6E /* Products */;
+			mainGroup = 337D7F7217F1C0E0007B52F7;
+			productRefGroup = 337D7F7C17F1C0E0007B52F7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				682A70EF156B43C6009CEB6E /* HelloCocoa */,
+				337D7F7A17F1C0E0007B52F7 /* HelloCocoa */,
+				337D7F9B17F1C0E0007B52F7 /* HelloCocoaTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		682A70EE156B43C6009CEB6E /* Resources */ = {
+		337D7F7917F1C0E0007B52F7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				682A70FF156B43C6009CEB6E /* InfoPlist.strings in Resources */,
-				682A7108156B43C6009CEB6E /* MainStoryboard.storyboard in Resources */,
+				337D7F9717F1C0E0007B52F7 /* Images.xcassets in Resources */,
+				337D7F8917F1C0E0007B52F7 /* InfoPlist.strings in Resources */,
+				337D7F9217F1C0E0007B52F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		337D7F9A17F1C0E0007B52F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337D7FA817F1C0E0007B52F7 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		682A70EC156B43C6009CEB6E /* Sources */ = {
+		337D7F7717F1C0E0007B52F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				682A7101156B43C6009CEB6E /* main.m in Sources */,
-				682A7105156B43C6009CEB6E /* AppDelegate.m in Sources */,
-				682A710B156B43C6009CEB6E /* ViewController.m in Sources */,
+				337D7F8B17F1C0E0007B52F7 /* main.m in Sources */,
+				337D7F8F17F1C0E0007B52F7 /* LCAppDelegate.m in Sources */,
+				337D7F9517F1C0E0007B52F7 /* LCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		337D7F9817F1C0E0007B52F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337D7FAA17F1C0E0007B52F7 /* HelloCocoaTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		337D7FA217F1C0E0007B52F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 337D7F7A17F1C0E0007B52F7 /* HelloCocoa */;
+			targetProxy = 337D7FA117F1C0E0007B52F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		682A70FD156B43C6009CEB6E /* InfoPlist.strings */ = {
+		337D7F8717F1C0E0007B52F7 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				682A70FE156B43C6009CEB6E /* en */,
+				337D7F8817F1C0E0007B52F7 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		682A7106156B43C6009CEB6E /* MainStoryboard.storyboard */ = {
+		337D7F9017F1C0E0007B52F7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				682A7107156B43C6009CEB6E /* en */,
+				337D7F9117F1C0E0007B52F7 /* Base */,
 			);
-			name = MainStoryboard.storyboard;
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		337D7FA617F1C0E0007B52F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				337D7FA717F1C0E0007B52F7 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		682A710C156B43C6009CEB6E /* Debug */ = {
+		337D7FAB17F1C0E0007B52F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -205,38 +328,56 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		682A710D156B43C6009CEB6E /* Release */ = {
+		337D7FAC17F1C0E0007B52F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		682A710F156B43C6009CEB6E /* Debug */ = {
+		337D7FAE17F1C0E0007B52F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloCocoa/HelloCocoa-Prefix.pch";
 				INFOPLIST_FILE = "HelloCocoa/HelloCocoa-Info.plist";
@@ -245,38 +386,90 @@
 			};
 			name = Debug;
 		};
-		682A7110156B43C6009CEB6E /* Release */ = {
+		337D7FAF17F1C0E0007B52F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloCocoa/HelloCocoa-Prefix.pch";
 				INFOPLIST_FILE = "HelloCocoa/HelloCocoa-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		337D7FB117F1C0E0007B52F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloCocoa.app/HelloCocoa";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloCocoa/HelloCocoa-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HelloCocoaTests/HelloCocoaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		337D7FB217F1C0E0007B52F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloCocoa.app/HelloCocoa";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloCocoa/HelloCocoa-Prefix.pch";
+				INFOPLIST_FILE = "HelloCocoaTests/HelloCocoaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		682A70EA156B43C6009CEB6E /* Build configuration list for PBXProject "HelloCocoa" */ = {
+		337D7F7617F1C0E0007B52F7 /* Build configuration list for PBXProject "HelloCocoa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				682A710C156B43C6009CEB6E /* Debug */,
-				682A710D156B43C6009CEB6E /* Release */,
+				337D7FAB17F1C0E0007B52F7 /* Debug */,
+				337D7FAC17F1C0E0007B52F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		682A710E156B43C6009CEB6E /* Build configuration list for PBXNativeTarget "HelloCocoa" */ = {
+		337D7FAD17F1C0E0007B52F7 /* Build configuration list for PBXNativeTarget "HelloCocoa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				682A710F156B43C6009CEB6E /* Debug */,
-				682A7110156B43C6009CEB6E /* Release */,
+				337D7FAE17F1C0E0007B52F7 /* Debug */,
+				337D7FAF17F1C0E0007B52F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		337D7FB017F1C0E0007B52F7 /* Build configuration list for PBXNativeTarget "HelloCocoaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				337D7FB117F1C0E0007B52F7 /* Debug */,
+				337D7FB217F1C0E0007B52F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 682A70E7156B43C6009CEB6E /* Project object */;
+	rootObject = 337D7F7317F1C0E0007B52F7 /* Project object */;
 }

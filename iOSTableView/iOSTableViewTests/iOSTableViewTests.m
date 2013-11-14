@@ -2,31 +2,33 @@
 //  iOSTableViewTests.m
 //  iOSTableViewTests
 //
-//  Created by Jon Manning on 7/10/12.
-//  Copyright (c) 2012 Secret Lab. All rights reserved.
+//  Created by Tim Nugent on 5/11/2013.
+//  Copyright (c) 2013 Tim Nugent. All rights reserved.
 //
 
-#import "iOSTableViewTests.h"
+#import <XCTest/XCTest.h>
+
+@interface iOSTableViewTests : XCTestCase
+
+@end
 
 @implementation iOSTableViewTests
 
 - (void)setUp
 {
     [super setUp];
-    
-    // Set-up code here.
+    // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
 - (void)tearDown
 {
-    // Tear-down code here.
-    
+    // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
 }
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in iOSTableViewTests");
+    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
 }
 
 @end

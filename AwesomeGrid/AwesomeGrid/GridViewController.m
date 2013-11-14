@@ -2,16 +2,16 @@
 //  GridViewController.m
 //  AwesomeGrid
 //
-//  Created by Jon Manning on 7/10/12.
-//  Copyright (c) 2012 Secret Lab. All rights reserved.
+//  Created by Tim Nugent on 5/11/2013.
+//  Copyright (c) 2013 Tim Nugent. All rights reserved.
 //
 
 #import "GridViewController.h"
-
 #import "GridCell.h"
 
-@interface GridViewController () {
-    NSArray* numbers;
+@interface GridViewController ()
+{
+	NSArray *numbers;
 }
 
 @end
@@ -27,40 +27,35 @@
     return self;
 }
 
-- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
-    return 1;
-}
-
-- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    
-    return numbers.count;
-    
-}
-
-- (UICollectionViewCell*) collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    
-    GridCell* cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"GridCell" forIndexPath:indexPath];
-    
-    NSNumber* number = numbers[indexPath.row];
-    
-    cell.label.text = [number description];
-    
-    return cell;
-    
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    NSMutableArray* numbersToAdd = [NSMutableArray array];
-    
-    for (int i = 1; i <= 200; i++) {
-        [numbersToAdd addObject:@(i)];
-    }
-    
-    numbers = numbersToAdd;
+	// Do any additional setup after loading the view.
+	
+	NSMutableArray *numbersToAdd = [NSMutableArray array];
+	
+	for (int i = 1; i <= 200; i++)
+	{
+		[numbersToAdd addObject:@(i)];
+	}
+	numbers = numbersToAdd;
+}
 
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
+{
+	return numbers.count;
+}
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
+{
+	return 1;
+}
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+	GridCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"GridCell" forIndexPath:indexPath];
+	NSNumber *number = numbers[indexPath.row];
+	cell.label.text = [number description];
+	
+	return cell;
 }
 
 - (void)didReceiveMemoryWarning

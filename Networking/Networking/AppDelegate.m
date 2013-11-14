@@ -19,19 +19,32 @@
     // PlaceKitten.com URLs work like this:
     // http://placekitten.com/<width>/<height>
     
-    NSInteger width = (int)self.imageView.bounds.size.width;
-    NSInteger height = (int)self.imageView.bounds.size.height;
+    int width = (int)self.imageView.bounds.size.width;
+    int height = (int)self.imageView.bounds.size.height;
     
     NSString* urlString = [NSString stringWithFormat:@"http://placekitten.com/%i/%i", width, height];
     
     NSURL* url = [NSURL URLWithString:urlString];
-    NSURLRequest* request = [NSURLRequest requestWithURL:url];
     
-    [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse * response, NSData * data, NSError * error) {
-        NSImage* image = [[NSImage alloc] initWithData:data];
-        self.imageView.image = image;
-    }];
-    
+	// simple switch for using NSURLSession or NSURLConnection
+	BOOL usingSessions = YES;
+	if (usingSessions)
+	{
+		NSURLSession *session = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
+		[[session dataTaskWithURL:url completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+			NSImage *image = [[NSImage alloc] initWithData:data];
+			self.imageView.image = image;
+		}] resume];
+	}
+	else
+	{
+		NSURLRequest* request = [NSURLRequest requestWithURL:url];
+		
+		[NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse * response, NSData * data, NSError * error) {
+			NSImage* image = [[NSImage alloc] initWithData:data];
+			self.imageView.image = image;
+		}];
+	}
 }
 
 @end

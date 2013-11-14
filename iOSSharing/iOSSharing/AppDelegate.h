@@ -2,8 +2,8 @@
 //  AppDelegate.h
 //  iOSSharing
 //
-//  Created by Jon Manning on 17/09/12.
-//  Copyright (c) 2012 Secret Lab. All rights reserved.
+//  Created by Tim Nugent on 31/10/2013.
+//  Copyright (c) 2013 Tim Nugent. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -2,31 +2,33 @@
 //  iOSSharingTests.m
 //  iOSSharingTests
 //
-//  Created by Jon Manning on 17/09/12.
-//  Copyright (c) 2012 Secret Lab. All rights reserved.
+//  Created by Tim Nugent on 31/10/2013.
+//  Copyright (c) 2013 Tim Nugent. All rights reserved.
 //
 
-#import "iOSSharingTests.h"
+#import <XCTest/XCTest.h>
+
+@interface iOSSharingTests : XCTestCase
+
+@end
 
 @implementation iOSSharingTests
 
 - (void)setUp
 {
     [super setUp];
-    
-    // Set-up code here.
+    // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
 - (void)tearDown
 {
-    // Tear-down code here.
-    
+    // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
 }
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in iOSSharingTests");
+    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
 }
 
 @end

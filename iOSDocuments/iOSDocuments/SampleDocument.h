@@ -2,14 +2,14 @@
 //  SampleDocument.h
 //  iOSDocuments
 //
-//  Created by Jon Manning on 26/02/12.
-//  Copyright (c) 2012 Secret Lab. All rights reserved.
+//  Created by Tim Nugent on 5/11/2013.
+//  Copyright (c) 2013 Tim Nugent. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
 @interface SampleDocument : UIDocument
 
-@property (nonatomic, strong) NSString* text;
+@property (nonatomic, strong) NSString *text;
 
 @end

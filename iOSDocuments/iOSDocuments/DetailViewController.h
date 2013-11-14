@@ -2,18 +2,17 @@
 //  DetailViewController.h
 //  iOSDocuments
 //
-//  Created by Jon Manning on 26/02/12.
-//  Copyright (c) 2012 Secret Lab. All rights reserved.
+//  Created by Tim Nugent on 5/11/2013.
+//  Copyright (c) 2013 Tim Nugent. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface DetailViewController : UIViewController <UITextViewDelegate>
-@property (strong, nonatomic) IBOutlet UITextView *textView;
+@interface DetailViewController : UIViewController<UITextFieldDelegate>
 
 @property (strong, nonatomic) id detailItem;
-
-@property (strong, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
-
+@property (weak, nonatomic) IBOutlet UITextView *textView;
 - (IBAction)done:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @end

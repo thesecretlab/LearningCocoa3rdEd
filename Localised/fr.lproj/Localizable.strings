@@ -1,0 +1,8 @@
+/* 
+  Localizable.strings
+  Localised
+
+  Created by Tim Nugent on 5/11/2013.
+  Copyright (c) 2013 Tim Nugent. All rights reserved.
+*/
+"main language: %@" = "La langue principale est %@";

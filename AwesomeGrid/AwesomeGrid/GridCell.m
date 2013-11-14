@@ -2,8 +2,8 @@
 //  GridCell.m
 //  AwesomeGrid
 //
-//  Created by Jon Manning on 7/10/12.
-//  Copyright (c) 2012 Secret Lab. All rights reserved.
+//  Created by Tim Nugent on 5/11/2013.
+//  Copyright (c) 2013 Tim Nugent. All rights reserved.
 //
 
 #import "GridCell.h"

@@ -2,17 +2,17 @@
 //  main.m
 //  HelloCocoa
 //
-//  Created by Jon Manning on 22/05/12.
-//  Copyright (c) 2012 Secret Lab. All rights reserved.
+//  Created by Tim Nugent on 24/09/13.
+//
 //
 
 #import <UIKit/UIKit.h>
 
-#import "AppDelegate.h"
+#import "LCAppDelegate.h"
 
-int main(int argc, char *argv[])
+int main(int argc, char * argv[])
 {
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-    }
+	@autoreleasepool {
+	    return UIApplicationMain(argc, argv, nil, NSStringFromClass([LCAppDelegate class]));
+	}
 }

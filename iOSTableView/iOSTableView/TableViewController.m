@@ -2,14 +2,15 @@
 //  TableViewController.m
 //  iOSTableView
 //
-//  Created by Jon Manning on 7/10/12.
-//  Copyright (c) 2012 Secret Lab. All rights reserved.
+//  Created by Tim Nugent on 5/11/2013.
+//  Copyright (c) 2013 Tim Nugent. All rights reserved.
 //
 
 #import "TableViewController.h"
 
-@interface TableViewController () {
-    NSArray* data;
+@interface TableViewController ()
+{
+	NSArray *data;
 }
 
 @end
@@ -28,14 +29,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    data = @[@"Once", @"upon", @"a", @"time"];
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+	
+	data = @[@"Once",@"upon",@"a",@"time"];
 }
 
 - (void)didReceiveMemoryWarning
@@ -48,11 +49,13 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
+    // Return the number of sections.
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
+    // Return the number of rows in the section.
     return data.count;
 }
 
@@ -61,11 +64,16 @@
     static NSString *CellIdentifier = @"StringCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    NSString* string = data[indexPath.row];
-    
-    cell.textLabel.text = string;
+    // Configure the cell...
+	NSString *string = data[indexPath.row];
+	
+	cell.textLabel.text = string;
     
     return cell;
+}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	NSLog(@"Selected %@",data[indexPath.row]);
 }
 
 /*
@@ -107,11 +115,16 @@
 }
 */
 
-#pragma mark - Table view delegate
+/*
+#pragma mark - Navigation
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+// In a story board-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    NSLog(@"Selected %@", data[indexPath.row]);
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
 }
+
+ */
 
 @end

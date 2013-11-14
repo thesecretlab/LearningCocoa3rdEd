@@ -2,8 +2,8 @@
 //  DetailViewController.m
 //  iOSDocuments
 //
-//  Created by Jon Manning on 26/02/12.
-//  Copyright (c) 2012 Secret Lab. All rights reserved.
+//  Created by Tim Nugent on 5/11/2013.
+//  Copyright (c) 2013 Tim Nugent. All rights reserved.
 //
 
 #import "DetailViewController.h"
@@ -14,10 +14,6 @@
 @end
 
 @implementation DetailViewController
-
-@synthesize textView = _textView;
-@synthesize detailItem = _detailItem;
-@synthesize detailDescriptionLabel = _detailDescriptionLabel;
 
 #pragma mark - Managing the detail item
 
@@ -35,45 +31,30 @@
 {
     // Update the user interface for the detail item.
 
-    if (self.detailItem) {
-        SampleDocument* document = self.detailItem;
-        self.textView.text = document.text;
-    }
+	if (self.detailItem) {
+	    SampleDocument *document = self.detailItem;
+		self.textView.text = document.text;
+	}
 }
-
-- (void)textViewDidChange:(UITextView *)textView {
-    SampleDocument* document = self.detailItem;
-    document.text = self.textView.text;
-
-}
-
-#pragma mark - View lifecycle
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self configureView];
-    self.navigationItem.hidesBackButton = YES;
+	// Do any additional setup after loading the view, typically from a nib.
+	[self configureView];
 }
 
-- (void)viewDidUnload
+- (void)didReceiveMemoryWarning
 {
-    
-    [self setTextView:nil];
-    [super viewDidUnload];
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{   
-    // Return YES for supported orientations
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
-}
-
-- (IBAction)done:(id)sender {
-    SampleDocument* document = self.detailItem;
-    [document saveToURL:document.fileURL forSaveOperation:UIDocumentSaveForOverwriting completionHandler:^(BOOL success) {
-        [self.navigationController popViewControllerAnimated:YES];
-    }];
-
+- (IBAction)done:(id)sender
+{
+	SampleDocument *document = self.detailItem;
+	[document saveToURL:document.fileURL forSaveOperation:UIDocumentSaveForOverwriting completionHandler:^(BOOL success) {
+		[self.navigationController popViewControllerAnimated:YES];
+	}];
 }
 @end

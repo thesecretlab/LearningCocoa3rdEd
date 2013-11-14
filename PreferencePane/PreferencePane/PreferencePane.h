@@ -2,16 +2,15 @@
 //  PreferencePane.h
 //  PreferencePane
 //
-//  Created by Jon Manning on 4/04/12.
-//  Copyright (c) 2012 Secret Lab. All rights reserved.
+//  Created by Tim Nugent on 5/11/2013.
+//  Copyright (c) 2013 Tim Nugent. All rights reserved.
 //
 
 #import <PreferencePanes/PreferencePanes.h>
 
 @interface PreferencePane : NSPreferencePane
+@property (weak) IBOutlet NSButton *checkbox;
 
 - (void)mainViewDidLoad;
-
-@property (assign) IBOutlet NSButton *checkbox;
 
 @end

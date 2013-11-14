@@ -2,8 +2,8 @@
 //  CustomView.m
 //  CustomViews
 //
-//  Created by Jon Manning on 22/03/12.
-//  Copyright (c) 2012 Secret Lab. All rights reserved.
+//  Created by Tim Nugent on 4/11/2013.
+//  Copyright (c) 2013 Tim Nugent. All rights reserved.
 //
 
 #import "CustomView.h"
@@ -16,19 +16,15 @@
     if (self) {
         // Initialization code here.
     }
-    
     return self;
 }
 
-// Change this number to display different content. Max = 6
 #define VERSION 6
-
 - (void)drawRect:(NSRect)dirtyRect
 {
-    
 #if VERSION == 0
     NSBezierPath* path = [NSBezierPath bezierPathWithRect:self.bounds];
-
+	
     [[NSColor greenColor] setFill];
     [path fill];
 #elif VERSION == 1
@@ -55,10 +51,8 @@
     
     [[NSColor blackColor] setStroke];
     [bezierPath stroke];
-
+	
 #elif VERSION == 3
-    
-    
     
     //// Bezier Drawing
     NSBezierPath* bezierPath = [NSBezierPath bezierPath];
@@ -122,13 +116,13 @@
     // Rounded Rectangle Drawing
     
     NSRect pathRect = NSInsetRect(self.bounds, 20, 20);
-
+	
     NSBezierPath* roundedRectanglePath = [NSBezierPath bezierPathWithRoundedRect: pathRect xRadius: 4 yRadius: 4];
     [gradient drawInBezierPath: roundedRectanglePath angle: 90];
     
 #elif VERSION == 6
     
-    NSRect pathRect = NSInsetRect(self.bounds, 100, 100);
+    NSRect pathRect = NSInsetRect(self.bounds, 125, 125);
     
     // Create a transform that rotates the drawing by a small amount around the origin.
     CGAffineTransform rotationTransform = CGAffineTransformMakeRotation(M_PI / 8.0);
@@ -151,9 +145,8 @@
     
     // Restore the context.
     [NSGraphicsContext restoreGraphicsState];
-
+	
 #endif
 }
-
 
 @end

@@ -21,8 +21,6 @@
 @end
 
 @implementation AppDelegate
-@synthesize store = _store;
-@synthesize date = _date;
 @dynamic calendars;
 @dynamic events;
 

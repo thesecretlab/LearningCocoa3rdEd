@@ -2,73 +2,55 @@
 //  ViewController.m
 //  Motion
 //
-//  Created by Jon Manning on 29/03/12.
-//  Copyright (c) 2012 Secret Lab. All rights reserved.
+//  Created by Tim Nugent on 4/11/2013.
+//  Copyright (c) 2013 Tim Nugent. All rights reserved.
 //
 
 #import "ViewController.h"
 
-@interface ViewController () {
-    CMMotionManager* _motionManager;
+@interface ViewController ()
+{
+	CMMotionManager *_motionManager;
 }
 
 @end
 
 @implementation ViewController
-@synthesize xLabel;
-@synthesize yLabel;
-@synthesize zLabel;
-@synthesize pitchLabel;
-@synthesize yawLabel;
-@synthesize rollLabel;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+	// Do any additional setup after loading the view, typically from a nib.
 	_motionManager = [[CMMotionManager alloc] init];
 }
-
-- (void)viewWillAppear:(BOOL)animated {
-    [_motionManager startDeviceMotionUpdatesToQueue:[NSOperationQueue mainQueue] withHandler:^(CMDeviceMotion *motion, NSError *error) {
-        
-        self.xLabel.text = [NSString stringWithFormat:@"%.1f", motion.userAcceleration.x];
-        self.yLabel.text = [NSString stringWithFormat:@"%.1f", motion.userAcceleration.y];
-        self.zLabel.text = [NSString stringWithFormat:@"%.1f", motion.userAcceleration.z];
-        
-        
-        // Convert the angles to degrees
-        CGFloat pitchDegrees = motion.attitude.pitch * 180 / M_PI;
-        CGFloat yawDegrees = motion.attitude.yaw * 180 / M_PI;
-        CGFloat rollDegrees = motion.attitude.roll * 180 / M_PI;
-        
-        
-        self.pitchLabel.text = [NSString stringWithFormat:@"%.1f", pitchDegrees];
-        self.yawLabel.text = [NSString stringWithFormat:@"%.1f", yawDegrees];
-        self.rollLabel.text = [NSString stringWithFormat:@"%.1f", rollDegrees];
-        
-                                
-    }];
-}
-
-- (void)viewWillDisappear:(BOOL)animated {
-    [_motionManager stopDeviceMotionUpdates];
-}
-
-- (void)viewDidUnload
+- (void)viewWillAppear:(BOOL)animated
 {
-    [self setXLabel:nil];
-    [self setYLabel:nil];
-    [self setZLabel:nil];
-    [self setPitchLabel:nil];
-    [self setYawLabel:nil];
-    [self setRollLabel:nil];
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
+	[_motionManager startDeviceMotionUpdatesToQueue:[NSOperationQueue mainQueue]
+										withHandler:^(CMDeviceMotion *motion, NSError *error) {
+											self.xLabel.text = [NSString stringWithFormat:@"%.1f",motion.userAcceleration.x];
+											self.yLabel.text = [NSString stringWithFormat:@"%.1f",motion.userAcceleration.y];
+											self.zLabel.text = [NSString stringWithFormat:@"%.1f",motion.userAcceleration.z];
+											
+											// convert the angles to degrees
+											CGFloat pitchDegress = motion.attitude.pitch * 180 / M_PI;
+											CGFloat yawDegress = motion.attitude.yaw * 180 / M_PI;
+											CGFloat rollDegress = motion.attitude.roll * 180 / M_PI;
+											
+											self.pitchLabel.text = [NSString stringWithFormat:@"%.1f",pitchDegress];
+											self.yawLabel.text = [NSString stringWithFormat:@"%.1f",yawDegress];
+											self.rollLabel.text = [NSString stringWithFormat:@"%.1f",rollDegress];
+										}];
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+- (void)viewWillDisappear:(BOOL)animated
 {
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+	[_motionManager stopDeviceMotionUpdates];
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 @end

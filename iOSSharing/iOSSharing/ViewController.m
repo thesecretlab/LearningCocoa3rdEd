@@ -2,14 +2,13 @@
 //  ViewController.m
 //  iOSSharing
 //
-//  Created by Jon Manning on 17/09/12.
-//  Copyright (c) 2012 Secret Lab. All rights reserved.
+//  Created by Tim Nugent on 31/10/2013.
+//  Copyright (c) 2013 Tim Nugent. All rights reserved.
 //
 
 #import "ViewController.h"
 
-// :: Add delegate protocol
-@interface ViewController () <UITextFieldDelegate>
+@interface ViewController ()
 
 @end
 
@@ -27,20 +26,15 @@
     // Dispose of any resources that can be recreated.
 }
 
-// :: Implement textFieldShouldReturn
-- (BOOL)textFieldShouldReturn:(UITextField *)textField {
-    [textField resignFirstResponder];
-    return NO;
+- (IBAction)shareText:(id)sender
+{
+	UIActivityViewController *activity = [[UIActivityViewController alloc] initWithActivityItems:@[self.textView.text] applicationActivities:nil];
+	[self presentViewController:activity animated:YES completion:nil];
 }
-
-// :: Add share methods
-- (IBAction)shareImage:(id)sender {
-    UIActivityViewController* activity = [[UIActivityViewController alloc] initWithActivityItems:@[self.imageView.image] applicationActivities:nil];
-    [self presentViewController:activity animated:YES completion:nil];
-}
-
-- (IBAction)shareText:(id)sender {
-    UIActivityViewController* activity = [[UIActivityViewController alloc] initWithActivityItems:@[self.textView.text] applicationActivities:nil];
-    [self presentViewController:activity animated:YES completion:nil];
+	
+- (IBAction)shareImage:(id)sender
+{
+	UIActivityViewController *activity = [[UIActivityViewController alloc] initWithActivityItems:@[self.imageView.image] applicationActivities:nil];
+	[self presentViewController:activity animated:YES completion:nil];
 }
 @end

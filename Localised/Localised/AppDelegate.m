@@ -2,25 +2,19 @@
 //  AppDelegate.m
 //  Localised
 //
-//  Created by Jon Manning on 7/04/12.
-//  Copyright (c) 2012 Secret Lab. All rights reserved.
+//  Created by Tim Nugent on 5/11/2013.
+//  Copyright (c) 2013 Tim Nugent. All rights reserved.
 //
 
 #import "AppDelegate.h"
 
 @implementation AppDelegate
 
-@synthesize window = _window;
-@synthesize languageLabel = _langaugeLabel;
-
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    NSString* currentLanguage = [[[NSUserDefaults standardUserDefaults] objectForKey:@"AppleLanguages"] objectAtIndex:0];
-    
-    NSString* labelFormat = NSLocalizedString(@"main language: %@", nil);
-    
-    self.languageLabel.stringValue = [NSString stringWithFormat:labelFormat, currentLanguage];
-    
+	NSString *currentLangauge = [[[NSUserDefaults standardUserDefaults] objectForKey:@"AppleLanguages"] objectAtIndex:0];
+	NSString *labelFormat = NSLocalizedString(@"main language: %@", nil);
+	self.languagesLabel.stringValue = [NSString stringWithFormat:labelFormat,currentLangauge];
 }
 
 @end

@@ -2,17 +2,17 @@
 //  main.m
 //  iOSSharing
 //
-//  Created by Jon Manning on 17/09/12.
-//  Copyright (c) 2012 Secret Lab. All rights reserved.
+//  Created by Tim Nugent on 31/10/2013.
+//  Copyright (c) 2013 Tim Nugent. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
 #import "AppDelegate.h"
 
-int main(int argc, char *argv[])
+int main(int argc, char * argv[])
 {
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-    }
+	@autoreleasepool {
+	    return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+	}
 }
