@@ -2,8 +2,8 @@
 //  ViewController.m
 //  Blocks
 //
-//  Created by Tim Nugent on 21/10/2013.
-//  Copyright (c) 2013 Tim Nugent. All rights reserved.
+//	Created for “Learning Cocoa with Objective-C Third Edition”
+//	Copyright (c) 2012-2013 the authors of the book. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -67,6 +67,10 @@
 			}}];
 		websiteNumber++;
 	}
+	
+//	self.edgesForExtendedLayout = UIRectEdgeNone;
+//	self.extendedLayoutIncludesOpaqueBars = NO;
+//	self.automaticallyAdjustsScrollViewInsets = NO;
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
