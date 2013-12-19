@@ -2,8 +2,8 @@
 //  main.m
 //  EventKit
 //
-//  Created by Jon Manning on 16/07/12.
-//  Copyright (c) 2012 Secret Lab. All rights reserved.
+//	Created for “Learning Cocoa with Objective-C Third Edition”
+//	Copyright (c) 2012-2013 the authors of the book. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
