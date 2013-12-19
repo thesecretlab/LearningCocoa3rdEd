@@ -2,8 +2,8 @@
 //  DetailViewController.m
 //  RetainCycle
 //
-//  Created by Jon Manning on 25/02/12.
-//  Copyright (c) 2012 Secret Lab. All rights reserved.
+//	Created for “Learning Cocoa with Objective-C Third Edition”
+//	Copyright (c) 2012-2013 the authors of the book. All rights reserved.
 //
 
 #import "DetailViewController.h"
@@ -13,9 +13,6 @@
 @end
 
 @implementation DetailViewController
-
-@synthesize detailItem = _detailItem;
-@synthesize detailDescriptionLabel = _detailDescriptionLabel;
 
 #pragma mark - Managing the detail item
 
@@ -29,65 +26,31 @@
     }
 }
 
--(UIColor *)colorForView:(ExampleView *)view {
-    return [UIColor greenColor];
-}
-
 - (void)configureView
 {
     // Update the user interface for the detail item.
 
-    if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
-    }
+	if (self.detailItem) {
+	    self.detailDescriptionLabel.text = [self.detailItem description];
+	}
 }
 
-- (void)didReceiveMemoryWarning
+- (UIColor *)colorForView:(ExampleView *)view
 {
-    [super didReceiveMemoryWarning];
-    // Release any cached data, images, etc that aren't in use.
+	return [UIColor greenColor];
 }
-
-#pragma mark - View lifecycle
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    [self configureView];
+	[self configureView];
 }
 
-- (void)viewDidUnload
+- (void)didReceiveMemoryWarning
 {
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
-}
-
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-}
-
-- (void)viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
-}
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-	[super viewWillDisappear:animated];
-}
-
-- (void)viewDidDisappear:(BOOL)animated
-{
-	[super viewDidDisappear:animated];
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    // Return YES for supported orientations
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 @end
