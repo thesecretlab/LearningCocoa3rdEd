@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  AppNapping
 //
-//  Created by Tim Nugent on 10/11/2013.
-//  Copyright (c) 2013 Tim Nugent. All rights reserved.
+//	Created for “Learning Cocoa with Objective-C Third Edition”
+//	Copyright (c) 2012-2013 the authors of the book. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -18,7 +18,7 @@
 - (void)applicationDidChangeOcclusionState:(NSNotification *)notification
 {
 	if ([NSApp occlusionState] & NSApplicationOcclusionStateVisible)
-		NSLog(@"You are in the forground, go nuts");
+		NSLog(@"You are in the foreground, go nuts");
 	else
 		NSLog(@"You are in the background, slow down");
 }
