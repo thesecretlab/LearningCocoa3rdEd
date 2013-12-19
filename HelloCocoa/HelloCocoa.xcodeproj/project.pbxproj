@@ -7,147 +7,147 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		337D7F7F17F1C0E0007B52F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337D7F7E17F1C0E0007B52F7 /* Foundation.framework */; };
-		337D7F8117F1C0E0007B52F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337D7F8017F1C0E0007B52F7 /* CoreGraphics.framework */; };
-		337D7F8317F1C0E0007B52F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337D7F8217F1C0E0007B52F7 /* UIKit.framework */; };
-		337D7F8917F1C0E0007B52F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 337D7F8717F1C0E0007B52F7 /* InfoPlist.strings */; };
-		337D7F8B17F1C0E0007B52F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 337D7F8A17F1C0E0007B52F7 /* main.m */; };
-		337D7F8F17F1C0E0007B52F7 /* LCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 337D7F8E17F1C0E0007B52F7 /* LCAppDelegate.m */; };
-		337D7F9217F1C0E0007B52F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 337D7F9017F1C0E0007B52F7 /* Main.storyboard */; };
-		337D7F9517F1C0E0007B52F7 /* LCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 337D7F9417F1C0E0007B52F7 /* LCViewController.m */; };
-		337D7F9717F1C0E0007B52F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 337D7F9617F1C0E0007B52F7 /* Images.xcassets */; };
-		337D7F9E17F1C0E0007B52F7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337D7F9D17F1C0E0007B52F7 /* XCTest.framework */; };
-		337D7F9F17F1C0E0007B52F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337D7F7E17F1C0E0007B52F7 /* Foundation.framework */; };
-		337D7FA017F1C0E0007B52F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337D7F8217F1C0E0007B52F7 /* UIKit.framework */; };
-		337D7FA817F1C0E0007B52F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 337D7FA617F1C0E0007B52F7 /* InfoPlist.strings */; };
-		337D7FAA17F1C0E0007B52F7 /* HelloCocoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 337D7FA917F1C0E0007B52F7 /* HelloCocoaTests.m */; };
+		33297496186289A9008667F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33297495186289A9008667F0 /* Foundation.framework */; };
+		33297498186289A9008667F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33297497186289A9008667F0 /* CoreGraphics.framework */; };
+		3329749A186289A9008667F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33297499186289A9008667F0 /* UIKit.framework */; };
+		332974A0186289A9008667F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3329749E186289A9008667F0 /* InfoPlist.strings */; };
+		332974A2186289A9008667F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 332974A1186289A9008667F0 /* main.m */; };
+		332974A6186289A9008667F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 332974A5186289A9008667F0 /* AppDelegate.m */; };
+		332974A9186289A9008667F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 332974A7186289A9008667F0 /* Main.storyboard */; };
+		332974AC186289A9008667F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 332974AB186289A9008667F0 /* ViewController.m */; };
+		332974AE186289AA008667F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 332974AD186289AA008667F0 /* Images.xcassets */; };
+		332974B5186289AA008667F0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 332974B4186289AA008667F0 /* XCTest.framework */; };
+		332974B6186289AA008667F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33297495186289A9008667F0 /* Foundation.framework */; };
+		332974B7186289AA008667F0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33297499186289A9008667F0 /* UIKit.framework */; };
+		332974BF186289AA008667F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 332974BD186289AA008667F0 /* InfoPlist.strings */; };
+		332974C1186289AA008667F0 /* HelloCocoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 332974C0186289AA008667F0 /* HelloCocoaTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		337D7FA117F1C0E0007B52F7 /* PBXContainerItemProxy */ = {
+		332974B8186289AA008667F0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 337D7F7317F1C0E0007B52F7 /* Project object */;
+			containerPortal = 3329748A186289A9008667F0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 337D7F7A17F1C0E0007B52F7;
+			remoteGlobalIDString = 33297491186289A9008667F0;
 			remoteInfo = HelloCocoa;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		337D7F7B17F1C0E0007B52F7 /* HelloCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		337D7F7E17F1C0E0007B52F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		337D7F8017F1C0E0007B52F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		337D7F8217F1C0E0007B52F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		337D7F8617F1C0E0007B52F7 /* HelloCocoa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloCocoa-Info.plist"; sourceTree = "<group>"; };
-		337D7F8817F1C0E0007B52F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		337D7F8A17F1C0E0007B52F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		337D7F8C17F1C0E0007B52F7 /* HelloCocoa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloCocoa-Prefix.pch"; sourceTree = "<group>"; };
-		337D7F8D17F1C0E0007B52F7 /* LCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCAppDelegate.h; sourceTree = "<group>"; };
-		337D7F8E17F1C0E0007B52F7 /* LCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCAppDelegate.m; sourceTree = "<group>"; };
-		337D7F9117F1C0E0007B52F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		337D7F9317F1C0E0007B52F7 /* LCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCViewController.h; sourceTree = "<group>"; };
-		337D7F9417F1C0E0007B52F7 /* LCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LCViewController.m; sourceTree = "<group>"; };
-		337D7F9617F1C0E0007B52F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		337D7F9C17F1C0E0007B52F7 /* HelloCocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloCocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		337D7F9D17F1C0E0007B52F7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		337D7FA517F1C0E0007B52F7 /* HelloCocoaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloCocoaTests-Info.plist"; sourceTree = "<group>"; };
-		337D7FA717F1C0E0007B52F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		337D7FA917F1C0E0007B52F7 /* HelloCocoaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloCocoaTests.m; sourceTree = "<group>"; };
+		33297492186289A9008667F0 /* HelloCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33297495186289A9008667F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		33297497186289A9008667F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		33297499186289A9008667F0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3329749D186289A9008667F0 /* HelloCocoa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloCocoa-Info.plist"; sourceTree = "<group>"; };
+		3329749F186289A9008667F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		332974A1186289A9008667F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		332974A3186289A9008667F0 /* HelloCocoa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloCocoa-Prefix.pch"; sourceTree = "<group>"; };
+		332974A4186289A9008667F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		332974A5186289A9008667F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		332974A8186289A9008667F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		332974AA186289A9008667F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		332974AB186289A9008667F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		332974AD186289AA008667F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		332974B3186289AA008667F0 /* HelloCocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloCocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		332974B4186289AA008667F0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		332974BC186289AA008667F0 /* HelloCocoaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloCocoaTests-Info.plist"; sourceTree = "<group>"; };
+		332974BE186289AA008667F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		332974C0186289AA008667F0 /* HelloCocoaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloCocoaTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		337D7F7817F1C0E0007B52F7 /* Frameworks */ = {
+		3329748F186289A9008667F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				337D7F8117F1C0E0007B52F7 /* CoreGraphics.framework in Frameworks */,
-				337D7F8317F1C0E0007B52F7 /* UIKit.framework in Frameworks */,
-				337D7F7F17F1C0E0007B52F7 /* Foundation.framework in Frameworks */,
+				33297498186289A9008667F0 /* CoreGraphics.framework in Frameworks */,
+				3329749A186289A9008667F0 /* UIKit.framework in Frameworks */,
+				33297496186289A9008667F0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		337D7F9917F1C0E0007B52F7 /* Frameworks */ = {
+		332974B0186289AA008667F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				337D7F9E17F1C0E0007B52F7 /* XCTest.framework in Frameworks */,
-				337D7FA017F1C0E0007B52F7 /* UIKit.framework in Frameworks */,
-				337D7F9F17F1C0E0007B52F7 /* Foundation.framework in Frameworks */,
+				332974B5186289AA008667F0 /* XCTest.framework in Frameworks */,
+				332974B7186289AA008667F0 /* UIKit.framework in Frameworks */,
+				332974B6186289AA008667F0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		337D7F7217F1C0E0007B52F7 = {
+		33297489186289A9008667F0 = {
 			isa = PBXGroup;
 			children = (
-				337D7F8417F1C0E0007B52F7 /* HelloCocoa */,
-				337D7FA317F1C0E0007B52F7 /* HelloCocoaTests */,
-				337D7F7D17F1C0E0007B52F7 /* Frameworks */,
-				337D7F7C17F1C0E0007B52F7 /* Products */,
+				3329749B186289A9008667F0 /* HelloCocoa */,
+				332974BA186289AA008667F0 /* HelloCocoaTests */,
+				33297494186289A9008667F0 /* Frameworks */,
+				33297493186289A9008667F0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		337D7F7C17F1C0E0007B52F7 /* Products */ = {
+		33297493186289A9008667F0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				337D7F7B17F1C0E0007B52F7 /* HelloCocoa.app */,
-				337D7F9C17F1C0E0007B52F7 /* HelloCocoaTests.xctest */,
+				33297492186289A9008667F0 /* HelloCocoa.app */,
+				332974B3186289AA008667F0 /* HelloCocoaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		337D7F7D17F1C0E0007B52F7 /* Frameworks */ = {
+		33297494186289A9008667F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				337D7F7E17F1C0E0007B52F7 /* Foundation.framework */,
-				337D7F8017F1C0E0007B52F7 /* CoreGraphics.framework */,
-				337D7F8217F1C0E0007B52F7 /* UIKit.framework */,
-				337D7F9D17F1C0E0007B52F7 /* XCTest.framework */,
+				33297495186289A9008667F0 /* Foundation.framework */,
+				33297497186289A9008667F0 /* CoreGraphics.framework */,
+				33297499186289A9008667F0 /* UIKit.framework */,
+				332974B4186289AA008667F0 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		337D7F8417F1C0E0007B52F7 /* HelloCocoa */ = {
+		3329749B186289A9008667F0 /* HelloCocoa */ = {
 			isa = PBXGroup;
 			children = (
-				337D7F8D17F1C0E0007B52F7 /* LCAppDelegate.h */,
-				337D7F8E17F1C0E0007B52F7 /* LCAppDelegate.m */,
-				337D7F9017F1C0E0007B52F7 /* Main.storyboard */,
-				337D7F9317F1C0E0007B52F7 /* LCViewController.h */,
-				337D7F9417F1C0E0007B52F7 /* LCViewController.m */,
-				337D7F9617F1C0E0007B52F7 /* Images.xcassets */,
-				337D7F8517F1C0E0007B52F7 /* Supporting Files */,
+				332974A4186289A9008667F0 /* AppDelegate.h */,
+				332974A5186289A9008667F0 /* AppDelegate.m */,
+				332974A7186289A9008667F0 /* Main.storyboard */,
+				332974AA186289A9008667F0 /* ViewController.h */,
+				332974AB186289A9008667F0 /* ViewController.m */,
+				332974AD186289AA008667F0 /* Images.xcassets */,
+				3329749C186289A9008667F0 /* Supporting Files */,
 			);
 			path = HelloCocoa;
 			sourceTree = "<group>";
 		};
-		337D7F8517F1C0E0007B52F7 /* Supporting Files */ = {
+		3329749C186289A9008667F0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				337D7F8617F1C0E0007B52F7 /* HelloCocoa-Info.plist */,
-				337D7F8717F1C0E0007B52F7 /* InfoPlist.strings */,
-				337D7F8A17F1C0E0007B52F7 /* main.m */,
-				337D7F8C17F1C0E0007B52F7 /* HelloCocoa-Prefix.pch */,
+				3329749D186289A9008667F0 /* HelloCocoa-Info.plist */,
+				3329749E186289A9008667F0 /* InfoPlist.strings */,
+				332974A1186289A9008667F0 /* main.m */,
+				332974A3186289A9008667F0 /* HelloCocoa-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		337D7FA317F1C0E0007B52F7 /* HelloCocoaTests */ = {
+		332974BA186289AA008667F0 /* HelloCocoaTests */ = {
 			isa = PBXGroup;
 			children = (
-				337D7FA917F1C0E0007B52F7 /* HelloCocoaTests.m */,
-				337D7FA417F1C0E0007B52F7 /* Supporting Files */,
+				332974C0186289AA008667F0 /* HelloCocoaTests.m */,
+				332974BB186289AA008667F0 /* Supporting Files */,
 			);
 			path = HelloCocoaTests;
 			sourceTree = "<group>";
 		};
-		337D7FA417F1C0E0007B52F7 /* Supporting Files */ = {
+		332974BB186289AA008667F0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				337D7FA517F1C0E0007B52F7 /* HelloCocoaTests-Info.plist */,
-				337D7FA617F1C0E0007B52F7 /* InfoPlist.strings */,
+				332974BC186289AA008667F0 /* HelloCocoaTests-Info.plist */,
+				332974BD186289AA008667F0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -155,13 +155,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		337D7F7A17F1C0E0007B52F7 /* HelloCocoa */ = {
+		33297491186289A9008667F0 /* HelloCocoa */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 337D7FAD17F1C0E0007B52F7 /* Build configuration list for PBXNativeTarget "HelloCocoa" */;
+			buildConfigurationList = 332974C4186289AA008667F0 /* Build configuration list for PBXNativeTarget "HelloCocoa" */;
 			buildPhases = (
-				337D7F7717F1C0E0007B52F7 /* Sources */,
-				337D7F7817F1C0E0007B52F7 /* Frameworks */,
-				337D7F7917F1C0E0007B52F7 /* Resources */,
+				3329748E186289A9008667F0 /* Sources */,
+				3329748F186289A9008667F0 /* Frameworks */,
+				33297490186289A9008667F0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -169,42 +169,42 @@
 			);
 			name = HelloCocoa;
 			productName = HelloCocoa;
-			productReference = 337D7F7B17F1C0E0007B52F7 /* HelloCocoa.app */;
+			productReference = 33297492186289A9008667F0 /* HelloCocoa.app */;
 			productType = "com.apple.product-type.application";
 		};
-		337D7F9B17F1C0E0007B52F7 /* HelloCocoaTests */ = {
+		332974B2186289AA008667F0 /* HelloCocoaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 337D7FB017F1C0E0007B52F7 /* Build configuration list for PBXNativeTarget "HelloCocoaTests" */;
+			buildConfigurationList = 332974C7186289AA008667F0 /* Build configuration list for PBXNativeTarget "HelloCocoaTests" */;
 			buildPhases = (
-				337D7F9817F1C0E0007B52F7 /* Sources */,
-				337D7F9917F1C0E0007B52F7 /* Frameworks */,
-				337D7F9A17F1C0E0007B52F7 /* Resources */,
+				332974AF186289AA008667F0 /* Sources */,
+				332974B0186289AA008667F0 /* Frameworks */,
+				332974B1186289AA008667F0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				337D7FA217F1C0E0007B52F7 /* PBXTargetDependency */,
+				332974B9186289AA008667F0 /* PBXTargetDependency */,
 			);
 			name = HelloCocoaTests;
 			productName = HelloCocoaTests;
-			productReference = 337D7F9C17F1C0E0007B52F7 /* HelloCocoaTests.xctest */;
+			productReference = 332974B3186289AA008667F0 /* HelloCocoaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		337D7F7317F1C0E0007B52F7 /* Project object */ = {
+		3329748A186289A9008667F0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = LC;
 				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Tim Nugent";
 				TargetAttributes = {
-					337D7F9B17F1C0E0007B52F7 = {
-						TestTargetID = 337D7F7A17F1C0E0007B52F7;
+					332974B2186289AA008667F0 = {
+						TestTargetID = 33297491186289A9008667F0;
 					};
 				};
 			};
-			buildConfigurationList = 337D7F7617F1C0E0007B52F7 /* Build configuration list for PBXProject "HelloCocoa" */;
+			buildConfigurationList = 3329748D186289A9008667F0 /* Build configuration list for PBXProject "HelloCocoa" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -212,88 +212,88 @@
 				en,
 				Base,
 			);
-			mainGroup = 337D7F7217F1C0E0007B52F7;
-			productRefGroup = 337D7F7C17F1C0E0007B52F7 /* Products */;
+			mainGroup = 33297489186289A9008667F0;
+			productRefGroup = 33297493186289A9008667F0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				337D7F7A17F1C0E0007B52F7 /* HelloCocoa */,
-				337D7F9B17F1C0E0007B52F7 /* HelloCocoaTests */,
+				33297491186289A9008667F0 /* HelloCocoa */,
+				332974B2186289AA008667F0 /* HelloCocoaTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		337D7F7917F1C0E0007B52F7 /* Resources */ = {
+		33297490186289A9008667F0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				337D7F9717F1C0E0007B52F7 /* Images.xcassets in Resources */,
-				337D7F8917F1C0E0007B52F7 /* InfoPlist.strings in Resources */,
-				337D7F9217F1C0E0007B52F7 /* Main.storyboard in Resources */,
+				332974AE186289AA008667F0 /* Images.xcassets in Resources */,
+				332974A0186289A9008667F0 /* InfoPlist.strings in Resources */,
+				332974A9186289A9008667F0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		337D7F9A17F1C0E0007B52F7 /* Resources */ = {
+		332974B1186289AA008667F0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				337D7FA817F1C0E0007B52F7 /* InfoPlist.strings in Resources */,
+				332974BF186289AA008667F0 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		337D7F7717F1C0E0007B52F7 /* Sources */ = {
+		3329748E186289A9008667F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				337D7F8B17F1C0E0007B52F7 /* main.m in Sources */,
-				337D7F8F17F1C0E0007B52F7 /* LCAppDelegate.m in Sources */,
-				337D7F9517F1C0E0007B52F7 /* LCViewController.m in Sources */,
+				332974AC186289A9008667F0 /* ViewController.m in Sources */,
+				332974A6186289A9008667F0 /* AppDelegate.m in Sources */,
+				332974A2186289A9008667F0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		337D7F9817F1C0E0007B52F7 /* Sources */ = {
+		332974AF186289AA008667F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				337D7FAA17F1C0E0007B52F7 /* HelloCocoaTests.m in Sources */,
+				332974C1186289AA008667F0 /* HelloCocoaTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		337D7FA217F1C0E0007B52F7 /* PBXTargetDependency */ = {
+		332974B9186289AA008667F0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 337D7F7A17F1C0E0007B52F7 /* HelloCocoa */;
-			targetProxy = 337D7FA117F1C0E0007B52F7 /* PBXContainerItemProxy */;
+			target = 33297491186289A9008667F0 /* HelloCocoa */;
+			targetProxy = 332974B8186289AA008667F0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		337D7F8717F1C0E0007B52F7 /* InfoPlist.strings */ = {
+		3329749E186289A9008667F0 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				337D7F8817F1C0E0007B52F7 /* en */,
+				3329749F186289A9008667F0 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		337D7F9017F1C0E0007B52F7 /* Main.storyboard */ = {
+		332974A7186289A9008667F0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				337D7F9117F1C0E0007B52F7 /* Base */,
+				332974A8186289A9008667F0 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		337D7FA617F1C0E0007B52F7 /* InfoPlist.strings */ = {
+		332974BD186289AA008667F0 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				337D7FA717F1C0E0007B52F7 /* en */,
+				332974BE186289AA008667F0 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -301,7 +301,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		337D7FAB17F1C0E0007B52F7 /* Debug */ = {
+		332974C2186289AA008667F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -340,7 +340,7 @@
 			};
 			name = Debug;
 		};
-		337D7FAC17F1C0E0007B52F7 /* Release */ = {
+		332974C3186289AA008667F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -373,7 +373,7 @@
 			};
 			name = Release;
 		};
-		337D7FAE17F1C0E0007B52F7 /* Debug */ = {
+		332974C5186289AA008667F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -386,7 +386,7 @@
 			};
 			name = Debug;
 		};
-		337D7FAF17F1C0E0007B52F7 /* Release */ = {
+		332974C6186289AA008667F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -399,7 +399,7 @@
 			};
 			name = Release;
 		};
-		337D7FB117F1C0E0007B52F7 /* Debug */ = {
+		332974C8186289AA008667F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
@@ -422,7 +422,7 @@
 			};
 			name = Debug;
 		};
-		337D7FB217F1C0E0007B52F7 /* Release */ = {
+		332974C9186289AA008667F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
@@ -444,32 +444,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		337D7F7617F1C0E0007B52F7 /* Build configuration list for PBXProject "HelloCocoa" */ = {
+		3329748D186289A9008667F0 /* Build configuration list for PBXProject "HelloCocoa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				337D7FAB17F1C0E0007B52F7 /* Debug */,
-				337D7FAC17F1C0E0007B52F7 /* Release */,
+				332974C2186289AA008667F0 /* Debug */,
+				332974C3186289AA008667F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		337D7FAD17F1C0E0007B52F7 /* Build configuration list for PBXNativeTarget "HelloCocoa" */ = {
+		332974C4186289AA008667F0 /* Build configuration list for PBXNativeTarget "HelloCocoa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				337D7FAE17F1C0E0007B52F7 /* Debug */,
-				337D7FAF17F1C0E0007B52F7 /* Release */,
+				332974C5186289AA008667F0 /* Debug */,
+				332974C6186289AA008667F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		337D7FB017F1C0E0007B52F7 /* Build configuration list for PBXNativeTarget "HelloCocoaTests" */ = {
+		332974C7186289AA008667F0 /* Build configuration list for PBXNativeTarget "HelloCocoaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				337D7FB117F1C0E0007B52F7 /* Debug */,
-				337D7FB217F1C0E0007B52F7 /* Release */,
+				332974C8186289AA008667F0 /* Debug */,
+				332974C9186289AA008667F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 337D7F7317F1C0E0007B52F7 /* Project object */;
+	rootObject = 3329748A186289A9008667F0 /* Project object */;
 }

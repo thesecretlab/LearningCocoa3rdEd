@@ -1,5 +1,5 @@
 //
-//  main.m
+//  ViewController.h
 //  HelloCocoa
 //
 //	Created for “Learning Cocoa with Objective-C Third Edition”
@@ -8,11 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import "AppDelegate.h"
+@interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *helloButton;
+- (IBAction)showAlert:(id)sender;
 
-int main(int argc, char * argv[])
-{
-	@autoreleasepool {
-	    return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-	}
-}
+@end
