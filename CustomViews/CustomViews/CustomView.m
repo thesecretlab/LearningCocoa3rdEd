@@ -19,7 +19,9 @@
     return self;
 }
 
+// Change this to a number from 0 to 6 to see the different views.
 #define VERSION 6
+
 - (void)drawRect:(NSRect)dirtyRect
 {
 #if VERSION == 0
